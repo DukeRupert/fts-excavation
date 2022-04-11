@@ -1,22 +1,15 @@
 <!-- header.svelte -->
 <script context="module">
+  // @ts-ignore
   import {page} from '$app/stores'
 </script>
 
-<script>
-  import {thumbsup, wrench, heart, mail} from '$lib/icons.js'
-
+<script lang="ts">
   let pathname
   $: ({pathname} = $page.url)
 
+  import {links, tel} from './store'
   let menuOpen = false
-  const tel = 'tel:2534398003'
-  const links = [
-    {title: 'Services', path: '/services', svg: thumbsup},
-    {title: 'Projects', path: '/projects', svg: wrench},
-    {title: 'About', path: '/about-us', svg: heart},
-    {title: 'Contact', path: '/contact-us', svg: mail}
-  ]
 </script>
 
 <!-- <header>
@@ -70,7 +63,7 @@
         </button>
       </div>
       <nav class="hidden md:flex space-x-10">
-        {#each links as link}
+        {#each $links as link}
           <a href={link.path} class="text-base font-medium text-gray-500 hover:text-gray-900">
             {link.title}
           </a>
@@ -84,7 +77,7 @@
           Quote
         </a>
         <a
-          href={tel}
+          href={$tel.href}
           class="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700"
         >
           Call
@@ -139,7 +132,7 @@
           </div>
           <div class="mt-6">
             <nav class="grid grid-cols-1 gap-7">
-              {#each links as link}
+              {#each $links as link}
                 <a
                   href={link.path}
                   class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
@@ -173,7 +166,7 @@
         <div class="py-6 px-5">
           <div class="mt-6">
             <a
-              href={tel}
+              href={$tel.href}
               class="w-full flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700"
             >
               Call Us
