@@ -4,6 +4,10 @@
   import Footer from '$lib/Footer.svelte'
 </script>
 
-<main>
-  <slot />
-</main>
+<Header />
+<div class="bg-white">
+  <main>
+    <slot />
+  </main>
+</div>
+<Footer />
