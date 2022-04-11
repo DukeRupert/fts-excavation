@@ -9,41 +9,44 @@
         <div>
           <div>
             <span
-              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600"
+              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-teal-600 to-green-700"
             >
-              <!-- Heroicon name: outline/inbox -->
+              <!-- Icon: Ruler/Pencil -->
               <svg
                 class="h-6 w-6 text-white"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
+                stroke-width="2"
                 stroke="currentColor"
-                aria-hidden="true"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
-                />
-              </svg>
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
+                <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
+                <polyline points="12 8 7 3 3 7 8 12" /> <line x1="7" y1="8" x2="5.5" y2="9.5" />
+                <polyline points="16 12 21 17 17 21 12 16" />
+                <line x1="16" y1="17" x2="14.5" y2="18.5" /></svg
+              >
             </span>
           </div>
           <div class="mt-6">
             <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
-              Stay on top of customer support
+              Local experts, Better results
             </h2>
             <p class="mt-4 text-lg text-gray-500">
-              Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada
-              faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem
-              arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+              Our company serves local homeowners and businesses, by offering fair pricing and
+              quality work. Check out some of our recent projects to see how we are making the south
+              Puget Sound region better!
             </p>
             <div class="mt-6">
               <a
-                href="#"
-                class="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
+                href="/projects"
+                class="inline-flex bg-gradient-to-r from-teal-600 to-green-700 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-teal-700 hover:to-green-800"
               >
-                Get started
+                View Projects
               </a>
             </div>
           </div>
@@ -52,21 +55,14 @@
           <blockquote>
             <div>
               <p class="text-base text-gray-500">
-                &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus
-                aenean curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;
+                &ldquo;We had a great experience in working with Frank. He never cut any corners but
+                was always mindful of costs so as not to exceed our budget.&rdquo;
               </p>
             </div>
             <footer class="mt-3">
               <div class="flex items-center space-x-3">
-                <div class="flex-shrink-0">
-                  <img
-                    class="h-6 w-6 rounded-full"
-                    src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                    alt=""
-                  />
-                </div>
                 <div class="text-base font-medium text-gray-700">
-                  Marcia Hill, Digital Marketing Manager
+                  Demetrius S. - Bonney Lake, WA
                 </div>
               </div>
             </footer>
@@ -76,8 +72,8 @@
       <div class="mt-12 sm:mt-16 lg:mt-0">
         <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
           <img
-            class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-            src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+            class="w-full sm:max-w-md rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+            src="/image/fts_backyard.webp"
             alt="Inbox user interface"
           />
         </div>
@@ -94,41 +90,42 @@
         <div>
           <div>
             <span
-              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600"
+              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-teal-600 to-green-700"
             >
               <!-- Heroicon name: outline/sparkles -->
               <svg
                 class="h-6 w-6 text-white"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
-                viewBox="0 0 24 24"
                 stroke="currentColor"
-                aria-hidden="true"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                />
-              </svg>
+                <circle cx="12" cy="12" r="10" /> <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+                <line x1="9" y1="9" x2="9.01" y2="9" />
+                <line x1="15" y1="9" x2="15.01" y2="9" /></svg
+              >
             </span>
           </div>
           <div class="mt-6">
             <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
-              Better understand your customers
+              Getting a job right the first time
             </h2>
             <p class="mt-4 text-lg text-gray-500">
-              Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada
-              faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem
-              arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+              We pride ourselves on the excellence of our work. A key part of that success is clear
+              communication about your goals and constraints. Contact us today to fix a difficult
+              problem or turn a dream into reality.
             </p>
             <div class="mt-6">
               <a
-                href="#"
-                class="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
+                href="/quote"
+                class="inline-flex bg-gradient-to-r from-teal-600 to-green-700 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-teal-700 hover:to-green-800"
               >
-                Get started
+                Get A Quote
               </a>
             </div>
           </div>
@@ -137,8 +134,8 @@
       <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
         <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
           <img
-            class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-            src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+            class="w-full sm:max-w-md rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+            src="/image/fts_equipment.webp"
             alt="Customer profile user interface"
           />
         </div>
