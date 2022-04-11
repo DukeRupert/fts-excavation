@@ -28,11 +28,11 @@
     >
       <div class="flex justify-start lg:w-0 lg:flex-1">
         <a href="/" class="z-20">
-          <span class="sr-only">Workflow</span>
+          <span class="sr-only">FtS Excavation</span>
           <img
-            class="h-8 w-auto sm:h-10"
-            src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
-            alt=""
+            class="h-16 w-auto p-1 sm:h-20 sm:p-2 bg-gradient-to-r from-teal-600 to-green-700 rounded-md"
+            src="/FtS_Logo.svg"
+            alt="FtS Excavation logo"
           />
         </a>
       </div>
@@ -78,7 +78,7 @@
         </a>
         <a
           href={$tel.href}
-          class="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700"
+          class="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-teal-600 to-green-700 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-teal-600 hover:to-green-800"
         >
           Call
         </a>
@@ -86,7 +86,7 @@
     </div>
 
     <div
-      class="absolute z-1 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden opacity-0 scale-95 {menuOpen
+      class="absolute z-1 top-0 inset-x-0 p-2 transition transform origin-top-left md:hidden opacity-0 scale-95 {menuOpen
         ? 'z-30 duration-200 ease-out opacity-100 scale-100'
         : 'z-1 duration-100 ease-in opacity-0 scale-95'}"
     >
@@ -98,16 +98,16 @@
             <div>
               <a href="/" on:click={() => (menuOpen = !menuOpen)}>
                 <img
-                  class="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
-                  alt="Workflow"
-                /></a
-              >
+                  class="h-16 w-auto p-1 sm:h-20 sm:p-2 bg-gradient-to-r from-teal-600 to-green-700 rounded-md"
+                  src="/FtS_Logo.svg"
+                  alt="FtS Excavation logo"
+                />
+              </a>
             </div>
             <div class="-mr-2">
               <button
                 type="button"
-                class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500"
                 on:click={() => (menuOpen = !menuOpen)}
               >
                 <span class="sr-only">Close menu</span>
@@ -139,7 +139,7 @@
                   on:click={() => (menuOpen = !menuOpen)}
                 >
                   <div
-                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-purple-600 to-indigo-600 text-white"
+                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-teal-600 to-green-700 text-white"
                   >
                     <svg
                       class="h-6 w-6"
@@ -167,7 +167,7 @@
           <div class="mt-6">
             <a
               href={$tel.href}
-              class="w-full flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700"
+              class="w-full flex items-center justify-center bg-gradient-to-r from-teal-600 to-green-700 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-teal-700 hover:to-green-800"
             >
               Call Us
             </a>
