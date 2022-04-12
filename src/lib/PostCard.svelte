@@ -27,7 +27,7 @@
     </p>
     <a
       rel="prefetch"
-      href="/blog/{post.slug.current}"
+      href="/projects/{post.slug.current}"
       class="inline-flex bg-gradient-to-r from-teal-600 to-green-700 bg-origin-border mt-6 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-teal-700 hover:to-green-800"
       >Read more</a
     >
