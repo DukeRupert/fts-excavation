@@ -9,8 +9,6 @@
 </script>
 
 <Hero />
-<LogoCloud />
 <AlternatingFeatures />
 <GradientFeatures />
-<Stats />
 <CallToAction />
