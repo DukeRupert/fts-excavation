@@ -2,7 +2,6 @@ import {writable} from 'svelte/store'
 import {thumbsup, wrench, heart, mail} from './icons.js'
 
 export const links = writable([
-  {title: 'Services', path: '/services', svg: thumbsup},
   {title: 'Projects', path: '/projects', svg: wrench},
   {title: 'About', path: '/about-us', svg: heart},
   {title: 'Contact', path: '/contact-us', svg: mail}
