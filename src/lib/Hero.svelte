@@ -8,8 +8,17 @@
   <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
     <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
       <div class="absolute inset-0">
-        <video autoplay loop width="2235.73" height="1257.6" class="h-full w-full object-cover">
+        <video
+          autoplay
+          loop
+          muted
+          poster="/image/poster.webp"
+          width="2235.73"
+          height="1257.6"
+          class="h-full w-full object-cover"
+        >
           <source src="video/excavator.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
           <track kind="captions" />
         </video>
         <!-- <div
