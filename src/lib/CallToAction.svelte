@@ -11,21 +11,49 @@
       <span class="block">Ready to get started?</span>
       <span
         class="-mb-1 pb-1 block bg-gradient-to-r from-teal-600 to-green-700 bg-clip-text text-transparent"
-        >Get in touch or request a quote.</span
+        >Let's talk!</span
       >
     </h2>
     <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
       <a
-        href="/quote"
+        href="/contact-us"
         class="flex items-center justify-center bg-gradient-to-r from-teal-600 to-green-700 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-teal-700 hover:to-green-800"
       >
-        Get A Quote
+        <svg
+          class="h-6 w- mr-2 text-white"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" /> <line x1="10" y1="14" x2="21" y2="3" />
+          <path d="M21 3L14.5 21a.55 .55 0 0 1 -1 0L10 14L3 10.5a.55 .55 0 0 1 0 -1L21 3" /></svg
+        >
+        Contact
       </a>
       <a
         href={$tel.href}
         class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-teal-800 bg-green-50 hover:bg-green-100"
       >
-        Call Us
+        <svg
+          class="h-6 w-6 mr-2 text-teal-600"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+          />
+        </svg>
+
+        Call
       </a>
     </div>
   </div>

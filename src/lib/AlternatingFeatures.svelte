@@ -122,10 +122,10 @@
             </p>
             <div class="mt-6">
               <a
-                href="/quote"
+                href="/contact-us"
                 class="inline-flex bg-gradient-to-r from-teal-600 to-green-700 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-teal-700 hover:to-green-800"
               >
-                Get A Quote
+                Contact Us
               </a>
             </div>
           </div>

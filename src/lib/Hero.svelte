@@ -24,10 +24,10 @@
         <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
           <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
             <a
-              href="/quote"
+              href="/contact-us"
               class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-teal-700 bg-white hover:bg-indigo-50 sm:px-8"
             >
-              Get A Quote
+              Contact Us
             </a>
             <a
               href={$tel.href}
