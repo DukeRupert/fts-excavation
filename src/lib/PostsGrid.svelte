@@ -4,7 +4,7 @@
   export let posts = []
 </script>
 
-<section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<section class="grid grid-cols-1 gap-8">
   {#each posts as post (post.slug.current)}
     <PostCard {post} />
   {/each}
