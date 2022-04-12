@@ -14,6 +14,7 @@
 
 <script>
   import PostsGrid from '$lib/PostsGrid.svelte'
+  import CallToAction from '$lib/CallToAction.svelte'
 
   export let posts
 </script>
@@ -38,5 +39,6 @@
     <div class="pt-16 pb-32">
       <PostsGrid {posts} />
     </div>
+    <CallToAction />
   </div>
 </div>
