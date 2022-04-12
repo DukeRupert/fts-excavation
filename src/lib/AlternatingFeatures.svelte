@@ -113,7 +113,7 @@
           </div>
           <div class="mt-6">
             <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
-              Getting a job right the first time
+              Precision + Integrity
             </h2>
             <p class="mt-4 text-lg text-gray-500">
               We pride ourselves on the excellence of our work. A key part of that success is clear
