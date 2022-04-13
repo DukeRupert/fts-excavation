@@ -74,6 +74,19 @@
             />
           </div>
         </div>
+
+        <div class="sm:col-span-3 hidden">
+          <label for="password" class="block text-sm font-medium text-gray-700"> Password </label>
+          <div class="mt-1">
+            <input
+              type="text"
+              name="password"
+              id="password"
+              autocomplete="password"
+              class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
+            />
+          </div>
+        </div>
       </div>
       <div class="pt-8">
         <div>
