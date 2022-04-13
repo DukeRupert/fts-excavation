@@ -21,11 +21,11 @@
   const {form, errors} = createForm({
     validate: (values) => {
       const errors = {}
-      if (!values['first-name']) {
-        errors['first-name'] = 'Must not be empty'
+      if (!values.first) {
+        errors.first = 'Must not be empty'
       }
-      if (!values['last-name']) {
-        errors['last-name'] = 'Must not be empty'
+      if (!values.last) {
+        errors.last = 'Must not be empty'
       }
       if (!values.email || !/^[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/.test(values.email)) {
         errors.email = 'Must be a valid email'
@@ -64,36 +64,34 @@
       </div>
       <div class="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
         <div class="sm:col-span-3">
-          <label for="first-name" class="block text-sm font-medium text-gray-700">
-            First name
-          </label>
+          <label for="first" class="block text-sm font-medium text-gray-700"> First name </label>
           <div class="mt-1">
             <input
               type="text"
-              name="first-name"
-              id="first-name"
+              name="first"
+              id="first"
               autocomplete="given-name"
               placeholder="Malcom"
               class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
-            <ValidationMessage for="first-name" let:messages={message}>
+            <ValidationMessage for="first" let:messages={message}>
               <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
             </ValidationMessage>
           </div>
         </div>
 
         <div class="sm:col-span-3">
-          <label for="last-name" class="block text-sm font-medium text-gray-700"> Last name </label>
+          <label for="last" class="block text-sm font-medium text-gray-700"> Last name </label>
           <div class="mt-1">
             <input
               type="text"
-              name="last-name"
-              id="last-name"
+              name="last"
+              id="last"
               autocomplete="family-name"
               placeholder="Reynolds"
               class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
-            <ValidationMessage for="last-name" let:messages={message}>
+            <ValidationMessage for="last" let:messages={message}>
               <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
             </ValidationMessage>
           </div>

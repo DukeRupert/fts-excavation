@@ -1,39 +1,17 @@
 import postmark from 'postmark'
 
 // Send an email:
-// var client = new postmark.ServerClient(process.env.SENDGRID_API_KEY)
-
-// export async function post({request}) {
-//   const body = await request.json()
-
-//   //Check honeypot
-//   if (body.password === '') {
-//     // Hooray, its not a bot, so send the email
-//     await client.sendEmailWithTemplate({
-//       TemplateAlias: 'kcc-contact',
-//       TemplateModel: body,
-//       From: 'logan@firefly.llc',
-//       To: 'logan@firefly.llc',
-//       MessageStream: 'outbound',
-//       TrackOpens: true
-//     })
-
-//     return {
-//       status: 200,
-//       body: 'Message sent'
-//     }
-//   } else {
-//     return {
-//       status: 200,
-//       body: 'Nice try bot'
-//     }
-//   }
-// }
+var client = new postmark.ServerClient(process.env.POSTMARK_API_KEY)
 
 export async function post({request}) {
   const body = await request.formData()
+
   // Convert formData to JSON
-  const data = Object.fromEntries(body.entries())
+  const entries = Object.fromEntries(body.entries())
+
+  // Add date
+  const date = new Date().toString()
+  const data = {...entries, date: date}
 
   if (data.password !== '') {
     // Nice try bot
@@ -43,10 +21,24 @@ export async function post({request}) {
     }
   } else {
     // Send message
-    console.log(JSON.stringify(data))
+    const res = await client.sendEmailWithTemplate({
+      TemplateId: 21373960,
+      TemplateModel: data,
+      From: 'logan@firefly.llc',
+      To: 'logan@firefly.llc',
+      MessageStream: 'outbound',
+      TrackOpens: true
+    })
 
-    return {
-      status: 201
+    if (res.ErrorCode) {
+      return {
+        status: res.ErrorCode,
+        body: res.Message
+      }
+    } else {
+      return {
+        status: 201
+      }
     }
   }
 }
