@@ -120,9 +120,11 @@
       </h1>
     </div>
     <div class="mt-6 prose prose-breaker-bay prose-lg prose-img:rounded-md text-gray-500 mx-auto">
-      {#if post.image}
-        <SanityImage image={post.image} />
-      {/if}
+      <div class="flex items-center justify-center">
+        {#if post.image}
+          <SanityImage image={post.image} />
+        {/if}
+      </div>
 
       <PortableText
         blocks={post.body}
