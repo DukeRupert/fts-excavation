@@ -25,6 +25,13 @@ export default {
       validation: (Rule) => Rule.required()
     },
     {
+      name: 'excerpt',
+      type: 'string',
+      title: 'Excerpt',
+      description: 'A sentence or two to place on the preview card',
+      validation: (Rule) => Rule.required()
+    },
+    {
       name: 'publishedAt',
       type: 'datetime',
       title: 'Published at',
