@@ -1,15 +1,61 @@
 <!-- ContactForm.svelte -->
 <script>
   import {createForm} from 'felte'
+  import {reporter, ValidationMessage} from '@felte/reporter-svelte'
+  import {goto} from '$app/navigation'
 
-  const {form} = createForm({
-    onSubmit: (values) => {
-      // ...
-    }
+  function handleSuccess(event) {
+    const {response, ...context} = event.detail
+    goto('/success')
+  }
+
+  function handleError(event) {
+    const {error, ...context} = event.detail
+    // `FelteSubmitError` contains a `response` property
+    // with the response from `fetch`
+    const response = error.response
+    // Do something with the error
+    console.log(`Error : ${response}`)
+  }
+
+  const {form, errors} = createForm({
+    validate: (values) => {
+      const errors = {}
+      if (!values['first-name']) {
+        errors['first-name'] = 'Must not be empty'
+      }
+      if (!values['last-name']) {
+        errors['last-name'] = 'Must not be empty'
+      }
+      if (!values.email || !/^[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/.test(values.email)) {
+        errors.email = 'Must be a valid email'
+      }
+      if (
+        !values.phone ||
+        !/^\(?([0-9]{3})\)?[-.●]?([0-9]{3})[-.●]?([0-9]{4})$/gm.test(values.phone)
+      ) {
+        errors.phone = 'Must be a valid phone number'
+      }
+      if (!values.location) {
+        errors.location = 'Must not be empty'
+      }
+      if (!/^[a-zA-Z\s]*$/.test(values.location)) {
+        errors.location = 'Only letters allowed'
+      }
+      return errors
+    },
+    extend: reporter
   })
 </script>
 
-<form use:form class="space-y-8 divide-y divide-gray-200">
+<form
+  use:form
+  action="/api/contact-us"
+  method="post"
+  on:feltesuccess={handleSuccess}
+  on:felteerror={handleError}
+  class="space-y-8 divide-y divide-gray-200"
+>
   <div class="space-y-8 divide-y divide-gray-200">
     <div class="pt-8">
       <div>
@@ -30,6 +76,9 @@
               placeholder="Malcom"
               class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
+            <ValidationMessage for="first-name" let:messages={message}>
+              <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
+            </ValidationMessage>
           </div>
         </div>
 
@@ -44,6 +93,9 @@
               placeholder="Reynolds"
               class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
+            <ValidationMessage for="last-name" let:messages={message}>
+              <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
+            </ValidationMessage>
           </div>
         </div>
 
@@ -58,6 +110,9 @@
               placeholder="browncoat@gmail.com"
               class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
+            <ValidationMessage for="email" let:messages={message}>
+              <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
+            </ValidationMessage>
           </div>
         </div>
 
@@ -72,6 +127,9 @@
               placeholder="253-123-4567"
               class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
+            <ValidationMessage for="phone" let:messages={message}>
+              <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
+            </ValidationMessage>
           </div>
         </div>
 
@@ -106,6 +164,9 @@
                 placeholder="Puyallup"
                 class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
               />
+              <ValidationMessage for="location" let:messages={message}>
+                <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
+              </ValidationMessage>
             </div>
           </div>
 
