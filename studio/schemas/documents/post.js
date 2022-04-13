@@ -136,7 +136,7 @@ export default {
       media: 'image'
     },
     prepare({title = 'No title', slug, media}) {
-      const path = `/blog/${slug.current}/`
+      const path = `/projects/${slug.current}/`
       return {
         title,
         media,
