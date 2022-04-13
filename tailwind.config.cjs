@@ -101,7 +101,11 @@ module.exports = {
             '--tw-prose-invert-td-borders': theme('colors.breaker-bay[700]')
           }
         }
-      })
+      }),
+      minHeight: {
+        '1/2': '50vh',
+        '3/4': '75vh'
+      }
     }
   },
   plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')]

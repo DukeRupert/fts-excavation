@@ -16,6 +16,7 @@
     const response = error.response
     // Do something with the error
     console.log(`Error : ${response}`)
+    goto('/error')
   }
 
   const {form, errors} = createForm({
