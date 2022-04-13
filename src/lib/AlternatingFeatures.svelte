@@ -9,7 +9,7 @@
         <div>
           <div>
             <span
-              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-teal-600 to-green-700"
+              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-breaker-bay-500 to-spectra-500"
             >
               <!-- Icon: Ruler/Pencil -->
               <svg
@@ -44,7 +44,7 @@
             <div class="mt-6">
               <a
                 href="/projects"
-                class="inline-flex bg-gradient-to-r from-teal-600 to-green-700 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-teal-700 hover:to-green-800"
+                class="inline-flex bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-breaker-bay-600 hover:to-spectra-600"
               >
                 View Projects
               </a>
@@ -90,7 +90,7 @@
         <div>
           <div>
             <span
-              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-teal-600 to-green-700"
+              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-breaker-bay-500 to-spectra-500"
             >
               <!-- Heroicon name: outline/sparkles -->
               <svg
@@ -123,7 +123,7 @@
             <div class="mt-6">
               <a
                 href="/contact-us"
-                class="inline-flex bg-gradient-to-r from-teal-600 to-green-700 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-teal-700 hover:to-green-800"
+                class="inline-flex bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-breaker-bay-600 hover:to-spectra-600"
               >
                 Contact Us
               </a>

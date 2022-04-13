@@ -106,7 +106,7 @@
     <div class="text-lg max-w-prose mx-auto">
       <h1>
         <span
-          class="block text-base text-center text-teal-600 font-semibold tracking-wide uppercase"
+          class="block text-base text-center text-breaker-bay-500 font-semibold tracking-wide uppercase"
           >{new Date(post.publishedAt).toLocaleDateString('en', {
             month: 'long',
             day: '2-digit',
@@ -119,7 +119,7 @@
         >
       </h1>
     </div>
-    <div class="mt-6 prose prose-teal prose-lg prose-img:rounded-md text-gray-500 mx-auto">
+    <div class="mt-6 prose prose-breaker-bay prose-lg prose-img:rounded-md text-gray-500 mx-auto">
       {#if post.image}
         <SanityImage image={post.image} />
       {/if}
@@ -142,7 +142,7 @@
         <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
           <a
             href="/contact-us"
-            class="flex items-center justify-center bg-gradient-to-r from-teal-600 to-green-700 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-teal-700 hover:to-green-800"
+            class="flex items-center justify-center bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-breaker-bay-600 hover:to-spectra-600"
           >
             <svg
               class="h-6 w- mr-2 text-white"
@@ -164,10 +164,10 @@
           </a>
           <a
             href="/projects"
-            class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-teal-800 bg-green-50 hover:bg-green-100"
+            class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-spectra-800 bg-breaker-bay-200 hover:bg-breaker-bay-300"
           >
             <svg
-              class="h-6 w-6 mr-2 text-teal-600"
+              class="h-6 w-6 mr-2 text-spectra-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"

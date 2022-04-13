@@ -10,7 +10,9 @@
 <div class="relative">
   <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
     <div class="text-center">
-      <h2 class="text-base font-semibold text-teal-600 tracking-wide uppercase">Contact Us</h2>
+      <h2 class="text-base font-semibold text-breaker-bay-500 tracking-wide uppercase">
+        Contact Us
+      </h2>
       <p
         class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl"
       >

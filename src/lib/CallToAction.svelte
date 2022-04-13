@@ -10,14 +10,14 @@
     <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
       <span class="block">Ready to get started?</span>
       <span
-        class="-mb-1 pb-1 block bg-gradient-to-r from-teal-600 to-green-700 bg-clip-text text-transparent"
+        class="-mb-1 pb-1 block bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-clip-text text-transparent"
         >Let's talk!</span
       >
     </h2>
     <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
       <a
         href="/contact-us"
-        class="flex items-center justify-center bg-gradient-to-r from-teal-600 to-green-700 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-teal-700 hover:to-green-800"
+        class="flex items-center justify-center bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-breaker-bay-600 hover:to-spectra-600"
       >
         <svg
           class="h-6 w- mr-2 text-white"
@@ -37,10 +37,10 @@
       </a>
       <a
         href={$tel.href}
-        class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-teal-800 bg-green-50 hover:bg-green-100"
+        class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-spectra-500 bg-breaker-bay-200 hover:bg-breaker-bay-300"
       >
         <svg
-          class="h-6 w-6 mr-2 text-teal-600"
+          class="h-6 w-6 mr-2 text-spectra-500"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

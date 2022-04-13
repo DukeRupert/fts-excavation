@@ -9,7 +9,7 @@
   })
 </script>
 
-<form class="space-y-8 divide-y divide-gray-200">
+<form use:form class="space-y-8 divide-y divide-gray-200">
   <div class="space-y-8 divide-y divide-gray-200">
     <div class="pt-8">
       <div>
@@ -28,7 +28,7 @@
               id="first-name"
               autocomplete="given-name"
               placeholder="Malcom"
-              class="shadow-sm focus:ring-teal-500 focus:border-teal-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
           </div>
         </div>
@@ -42,7 +42,7 @@
               id="last-name"
               autocomplete="family-name"
               placeholder="Reynolds"
-              class="shadow-sm focus:ring-teal-500 focus:border-teal-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
           </div>
         </div>
@@ -56,7 +56,7 @@
               type="email"
               autocomplete="email"
               placeholder="browncoat@gmail.com"
-              class="shadow-sm focus:ring-teal-500 focus:border-teal-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
           </div>
         </div>
@@ -70,7 +70,7 @@
               id="phone"
               autocomplete="tel"
               placeholder="253-123-4567"
-              class="shadow-sm focus:ring-teal-500 focus:border-teal-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
           </div>
         </div>
@@ -91,7 +91,7 @@
                 name="location"
                 id="location"
                 placeholder="Puyallup"
-                class="shadow-sm focus:ring-teal-500 focus:border-teal-500 block w-full sm:text-sm border-gray-300 rounded-md"
+                class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
               />
             </div>
           </div>
@@ -101,7 +101,7 @@
             <select
               id="service"
               name="service"
-              class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-teal-500 focus:border-teal-500 sm:text-sm rounded-md"
+              class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-breaker-bay-500 focus:border-breaker-bay-500 sm:text-sm rounded-md"
             >
               <option selected>Site Preparation</option>
               <option>Drainage</option>
@@ -119,7 +119,7 @@
     <div class="flex justify-end">
       <button
         type="submit"
-        class="ml-3 inline-flex justify-center py-2 px-8 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-teal-600 to-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 hover:from-teal-600 hover:to-green-800"
+        class="ml-3 inline-flex justify-center py-2 px-8 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-breaker-bay-500 to-spectra-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-breaker-bay-500 hover:from-breaker-bay-500 hover:to-spectra-600"
         >Send</button
       >
     </div>

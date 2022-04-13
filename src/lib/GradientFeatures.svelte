@@ -47,7 +47,7 @@
   ]
 </script>
 
-<div class="bg-gradient-to-r from-green-800 to-teal-600">
+<div class="bg-gradient-to-r from-spectra-600 to-breaker-bay-600">
   <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
     <h2 class="text-3xl font-extrabold text-white tracking-tight">
       Commercial and domestic services

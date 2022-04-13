@@ -34,13 +34,13 @@
           <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
             <a
               href="/contact-us"
-              class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-teal-700 bg-white hover:bg-indigo-50 sm:px-8"
+              class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-spectra-500 bg-white hover:bg-breaker-bay-100 sm:px-8"
             >
               Contact Us
             </a>
             <a
               href={$tel.href}
-              class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-teal-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
+              class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-breaker-bay-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
             >
               Call Us
             </a>
