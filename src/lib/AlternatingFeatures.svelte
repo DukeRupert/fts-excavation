@@ -70,11 +70,13 @@
         </div>
       </div>
       <div class="mt-12 sm:mt-16 lg:mt-0">
-        <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+        <div
+          class="pl-4 -mr-16 sm:pl-6 sm:flex sm:justify-center md:-mr-48 lg:px-0 lg:m-0 lg:relative lg:h-full"
+        >
           <img
             class="w-full sm:max-w-md rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
             src="/image/fts_backyard.webp"
-            alt="Inbox user interface"
+            alt="A beautiful green backyard with sunlight shining through the trees"
           />
         </div>
       </div>
@@ -132,11 +134,13 @@
         </div>
       </div>
       <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-        <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+        <div
+          class="pr-4 -ml-16 sm:pr-6 sm:flex sm:justify-center md:-ml-48 lg:px-0 lg:m-0 lg:relative lg:h-full"
+        >
           <img
             class="w-full sm:max-w-md rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
             src="/image/fts_equipment.webp"
-            alt="Customer profile user interface"
+            alt="An excavator in the middle of a construction site surrounded by pine trees"
           />
         </div>
       </div>
