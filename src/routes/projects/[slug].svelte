@@ -35,6 +35,9 @@
 </script>
 
 <SvelteSeo
+  title={post.title}
+  description={post.excerpt}
+  keywords="excavation construction services contractor puget sound puyallup drainage grading"
   openGraph={{
     title: post.title,
     description: post.excerpt,

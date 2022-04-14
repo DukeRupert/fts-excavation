@@ -7,6 +7,9 @@
 </script>
 
 <SvelteSeo
+  title="Contact Us"
+  description="No commitment, just a conversation starter. We provide excavation services to the south puget sound."
+  keywords="excavation construction services contractor puget sound puyallup drainage grading"
   openGraph={{
     title: 'Contact Us',
     description:

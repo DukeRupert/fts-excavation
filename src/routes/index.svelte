@@ -28,6 +28,9 @@
 </script>
 
 <SvelteSeo
+  title="FtS Excavation - Home"
+  description="Proudly serving the south Puget Sound region through excellent excavation services."
+  keywords="excavation construction services contractor puget sound puyallup drainage grading"
   openGraph={{
     title: 'FtS Excavation - Home',
     description:

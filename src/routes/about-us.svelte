@@ -6,6 +6,9 @@
 </script>
 
 <SvelteSeo
+  title="About Us"
+  description="Since you are curious. Here is a little bit of our story."
+  keywords="excavation construction services contractor puget sound puyallup drainage grading"
   openGraph={{
     title: 'About Us',
     description: 'Since you are curious. Here is a little bit of our story.',
@@ -35,7 +38,7 @@
     </div>
     <img
       src="/image/BandF.webp"
-      alt="A picture of Frank and Beverly Sharp"
+      alt="Frank and Beverly Sharp"
       class="w-full max-w-md mx-auto mt-16 lg:mt-24 rounded-full"
     />
     <article
