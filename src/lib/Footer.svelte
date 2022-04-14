@@ -4,8 +4,8 @@
   import ChamberOfCommerce from '$lib/ChamberOfCommerce.svelte'
 </script>
 
-<footer class="bg-spectra-500">
-  <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+<footer class="bg-white">
+  <div class="bg-spectra-500 max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
     <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
       {#each $links as link}
         <div class="px-5 py-2">
@@ -35,4 +35,5 @@
       <p class="mt-8 text-center text-base text-gray-300">Design by Firefly</p>
     </a>
   </div>
+  <ChamberOfCommerce />
 </footer>
