@@ -21,7 +21,7 @@
 
 {#if image}
   <img
-    class="object-cover w-full md:w-1/2 lg:w-1/3"
+    class="w-full h-full object-center object-cover sm:w-full sm:h-full"
     loading="lazy"
     src={urlFor(image).width(maxWidth).fit('fillmax')}
     alt={alt || image.alt || ''}
