@@ -1,6 +1,7 @@
 <!-- footer.svelte -->
 <script lang="ts">
   import {links} from './store'
+  import ChamberOfCommerce from '$lib/ChamberOfCommerce.svelte'
 </script>
 
 <footer class="bg-white">
@@ -33,5 +34,8 @@
     <a href="https://www.firefly.llc">
       <p class="mt-8 text-center text-base text-gray-400">Design by Firefly</p>
     </a>
+    <div class="mt-8">
+      <ChamberOfCommerce />
+    </div>
   </div>
 </footer>
