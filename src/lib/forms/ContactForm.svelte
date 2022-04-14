@@ -15,7 +15,7 @@
     // with the response from `fetch`
     const response = error.response
     // Do something with the error
-    console.log(`Error : ${response}`)
+    console.log(`Error : ${response.status} ${response.body}`)
     goto('/error')
   }
 

@@ -2,7 +2,6 @@
   export async function load({params, fetch}) {
     try {
       const url = `/projects/${params.slug}.json`
-      console.log(`Slug : ${params.slug}`)
       const res = await fetch(url)
       const data = await res.json()
 
