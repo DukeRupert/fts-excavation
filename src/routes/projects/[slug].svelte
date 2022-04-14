@@ -21,6 +21,10 @@
 </script>
 
 <script>
+  import SvelteSeo from 'svelte-seo'
+  //@ts-ignore
+  import {page} from '$app/stores'
+  import {urlFor} from '$lib/sanityClient'
   import PortableText from '@portabletext/svelte'
   import Code from '$lib/Code.svelte'
   import Link from '$lib/Link.svelte'
@@ -30,9 +34,25 @@
   export let post
 </script>
 
-<svelte:head>
-  <title>{post.title}</title>
-</svelte:head>
+<SvelteSeo
+  openGraph={{
+    title: post.title,
+    description: post.excerpt,
+    url: $page.url.href,
+    type: 'article',
+    article: {
+      publishedTime: post.publishedAt
+    },
+    images: [
+      {
+        url: urlFor(post.image).width(600).height(600),
+        width: 600,
+        height: 600,
+        alt: post.image.alt
+      }
+    ]
+  }}
+/>
 
 <div class="relative py-16 bg-white overflow-hidden">
   <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
