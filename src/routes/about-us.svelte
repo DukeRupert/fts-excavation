@@ -1,7 +1,26 @@
 <!-- about-us.svelte -->
-<svelte:head>
-  <title>About Us</title>
-</svelte:head>
+<script lang="ts">
+  import SvelteSeo from 'svelte-seo'
+  //@ts-ignore
+  import {page} from '$app/stores'
+</script>
+
+<SvelteSeo
+  openGraph={{
+    title: 'About Us',
+    description: 'Since you are curious. Here is a little bit of our story.',
+    url: $page.url.href,
+    type: 'website',
+    images: [
+      {
+        url: `${$page.url.host}/image/BandF.webp`,
+        width: 479,
+        height: 479,
+        alt: 'FtS Excavation excavator in front of Mount Rainier'
+      }
+    ]
+  }}
+/>
 
 <div class="relative">
   <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">

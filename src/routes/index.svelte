@@ -15,6 +15,7 @@
 
 <script lang="ts">
   import SvelteSeo from 'svelte-seo'
+  //@ts-ignore
   import {page} from '$app/stores'
   import Hero from '$lib/Hero.svelte'
   import AlternatingFeatures from '$lib/AlternatingFeatures.svelte'
@@ -28,7 +29,7 @@
 
 <SvelteSeo
   openGraph={{
-    title: 'FtS Excavationm - Home',
+    title: 'FtS Excavation - Home',
     description:
       'Proudly serving the south Puget Sound region through excellent excavation services.',
     url: $page.url.href,

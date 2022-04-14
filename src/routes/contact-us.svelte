@@ -1,11 +1,28 @@
 <!-- contact-us.svelte -->
 <script lang="ts">
+  import SvelteSeo from 'svelte-seo'
+  //@ts-ignore
+  import {page} from '$app/stores'
   import ContactForm from '$lib/forms/ContactForm.svelte'
 </script>
 
-<svelte:head>
-  <title>Contact Us</title>
-</svelte:head>
+<SvelteSeo
+  openGraph={{
+    title: 'Contact Us',
+    description:
+      'No commitment, just a conversation starter. We provide excavation services to the south puget sound.',
+    url: $page.url.href,
+    type: 'website',
+    images: [
+      {
+        url: `${$page.url.host}/image/fts_excavation_ranier_960_1280.webp`,
+        width: 960,
+        height: 1280,
+        alt: 'FtS Excavation excavator in front of Mount Rainier'
+      }
+    ]
+  }}
+/>
 
 <div class="relative">
   <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">

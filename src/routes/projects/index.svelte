@@ -13,15 +13,32 @@
 </script>
 
 <script>
+  import SvelteSeo from 'svelte-seo'
+  //@ts-ignore
+  import {page} from '$app/stores'
   import PostsGrid from '$lib/PostsGrid.svelte'
   import CallToAction from '$lib/CallToAction.svelte'
 
   export let posts
 </script>
 
-<svelte:head>
-  <title>Projects</title>
-</svelte:head>
+<SvelteSeo
+  openGraph={{
+    title: 'Projects',
+    description:
+      'We are proud to showcase a few examples of the work we are doing in the South Puget Sound.',
+    url: $page.url.href,
+    type: 'website',
+    images: [
+      {
+        url: `${$page.url.host}/image/fts_excavation_ranier_960_1280.webp`,
+        width: 960,
+        height: 1280,
+        alt: 'FtS Excavation excavator in front of Mount Rainier'
+      }
+    ]
+  }}
+/>
 
 <div class="relative">
   <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
