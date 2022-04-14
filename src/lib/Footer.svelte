@@ -4,19 +4,19 @@
   import ChamberOfCommerce from '$lib/ChamberOfCommerce.svelte'
 </script>
 
-<footer class="bg-white">
+<footer class="bg-spectra-500">
   <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
     <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
       {#each $links as link}
         <div class="px-5 py-2">
-          <a href={link.path} class="text-base text-gray-500 hover:text-gray-900"> {link.title} </a>
+          <a href={link.path} class="text-base text-gray-300 hover:text-gray-200"> {link.title} </a>
         </div>
       {/each}
     </nav>
     <div class="mt-8 flex justify-center space-x-6">
       <a
         href="https://www.facebook.com/FtS-Excavation-107417208285323"
-        class="text-gray-400 hover:text-gray-500"
+        class="text-gray-200 hover:text-gray-100"
       >
         <span class="sr-only">Facebook</span>
         <svg class="h-10 w-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -28,14 +28,11 @@
         </svg>
       </a>
     </div>
-    <p class="mt-8 text-center text-base text-gray-400">
+    <p class="mt-8 text-center text-base text-gray-300">
       &copy; 2021 FTS Excavation, LLC. All rights reserved.
     </p>
     <a href="https://www.firefly.llc">
-      <p class="mt-8 text-center text-base text-gray-400">Design by Firefly</p>
+      <p class="mt-8 text-center text-base text-gray-300">Design by Firefly</p>
     </a>
-    <div class="mt-8">
-      <ChamberOfCommerce />
-    </div>
   </div>
 </footer>

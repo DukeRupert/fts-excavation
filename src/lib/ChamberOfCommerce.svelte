@@ -15,6 +15,10 @@
     on:load={initialize}></script>
 </svelte:head>
 
-<div class="flex justify-center items-center">
-  <div id="mni-membership-637789533700920278" />
+<div class="relative bg-white">
+  <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+    <div class="flex justify-center items-center">
+      <div id="mni-membership-637789533700920278" />
+    </div>
+  </div>
 </div>
