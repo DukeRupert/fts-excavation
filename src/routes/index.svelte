@@ -14,6 +14,8 @@
 </script>
 
 <script lang="ts">
+  import SvelteSeo from 'svelte-seo'
+  import {page} from '$app/stores'
   import Hero from '$lib/Hero.svelte'
   import AlternatingFeatures from '$lib/AlternatingFeatures.svelte'
   import GradientFeatures from '$lib/GradientFeatures.svelte'
@@ -23,6 +25,24 @@
   export let posts
   posts = posts.slice(0, 3)
 </script>
+
+<SvelteSeo
+  openGraph={{
+    title: 'FtS Excavationm - Home',
+    description:
+      'Proudly serving the south Puget Sound region through excellent excavation services.',
+    url: $page.url.href,
+    type: 'website',
+    images: [
+      {
+        url: `${$page.url.host}/image/fts_excavation_ranier_960_1280.webp`,
+        width: 960,
+        height: 1280,
+        alt: 'FtS Excavation excavator in front of Mount Rainier'
+      }
+    ]
+  }}
+/>
 
 <Hero />
 <AlternatingFeatures />
