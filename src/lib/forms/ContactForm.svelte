@@ -3,6 +3,23 @@
   import {createForm} from 'felte'
   import {reporter, ValidationMessage} from '@felte/reporter-svelte'
   import {goto} from '$app/navigation'
+  import {onMount} from 'svelte'
+
+  const crew = [
+    {first: 'Malcom', last: 'Reynolds', email: 'browncoat@gmail.com'},
+    {first: 'Zoe', last: 'Washburne', email: 'slinkydress@gmail.com'},
+    {first: 'River', last: 'Tam', email: 'nopowerintheverse@gmail.com'},
+    {first: 'Simon', last: 'Tam', email: 'traumadoc@gmail.com'},
+    {first: 'Kaylee', last: 'Frye', email: 'naturaltalent@gmail.com'},
+    {first: 'Inara', last: 'Sera', email: 'lonelycompanion@gmail.com'},
+    {first: 'Hoban', last: 'Washburne', email: 'aleafonthewind@gmail.com'},
+    {first: 'Jayne', last: 'Cobb', email: 'vera@gmail.com'}
+  ]
+
+  let crewChoice = 0
+  const getRandomInt = (max) => {
+    return Math.floor(Math.random() * max)
+  }
 
   function handleSuccess(event) {
     const {response, ...context} = event.detail
@@ -47,6 +64,10 @@
     },
     extend: reporter
   })
+
+  onMount(() => {
+    crewChoice = getRandomInt(crew.length)
+  })
 </script>
 
 <form
@@ -72,7 +93,7 @@
               name="first"
               id="first"
               autocomplete="given-name"
-              placeholder="Malcom"
+              placeholder={crew[crewChoice].first}
               class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
             <ValidationMessage for="first" let:messages={message}>
@@ -89,7 +110,7 @@
               name="last"
               id="last"
               autocomplete="family-name"
-              placeholder="Reynolds"
+              placeholder={crew[crewChoice].last}
               class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
             <ValidationMessage for="last" let:messages={message}>
@@ -106,7 +127,7 @@
               name="email"
               type="email"
               autocomplete="email"
-              placeholder="browncoat@gmail.com"
+              placeholder={crew[crewChoice].email}
               class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
             <ValidationMessage for="email" let:messages={message}>
