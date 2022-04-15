@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@beyonk/svelte-google-analytics': ^2.4.0
   '@felte/reporter-svelte': ^1.0.3
   '@portabletext/svelte': ^0.2.0
   '@sanity/client': ^2.23.0
@@ -19,16 +20,19 @@ specifiers:
   prettier: ^2.5.1
   prettier-plugin-svelte: ^2.5.1
   svelte: ^3.42.6
+  svelte-google-analytics~: "link:\e[200~@beyonk/svelte-google-analytics~"
   svelte-seo: ^1.4.0
   tailwindcss: ^3.0.23
   typescript: ^4.6.3
 
 dependencies:
+  '@beyonk/svelte-google-analytics': 2.4.0
   '@felte/reporter-svelte': 1.0.3_svelte@3.47.0
   '@sanity/client': 2.23.2
   '@sanity/image-url': 1.0.1
   felte: 1.1.5_svelte@3.47.0
   postmark: 3.0.1
+  svelte-google-analytics~: "link:\e[200~@beyonk/svelte-google-analytics~"
   svelte-seo: 1.4.0_typescript@4.6.3
   typescript: 4.6.3
 
@@ -70,6 +74,10 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
+
+  /@beyonk/svelte-google-analytics/2.4.0:
+    resolution: {integrity: sha512-eulghv7opubklu/FlG4GK80pLHJt3YTolJP08sRchnpA05iywRb5oUWQryeo9xFuUToxu43+i3imhGaPWTB+rA==}
+    dev: false
 
   /@eslint/eslintrc/1.2.1:
     resolution: {integrity: sha512-bxvbYnBPN1Gibwyp6NrpnFzA3YtRL3BBAyEAFVIpNTm2Rn4Vy87GA5M4aSn3InRrlsbX5N0GW7XIx+U4SAEKdQ==}
