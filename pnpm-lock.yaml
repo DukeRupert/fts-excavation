@@ -21,7 +21,6 @@ specifiers:
   prettier: ^2.5.1
   prettier-plugin-svelte: ^2.5.1
   svelte: ^3.42.6
-  svelte-google-analytics~: "link:\e[200~@beyonk/svelte-google-analytics~"
   svelte-seo: ^1.4.0
   tailwindcss: ^3.0.23
   typescript: ^4.6.3
@@ -32,7 +31,6 @@ dependencies:
   '@sanity/image-url': 1.0.1
   felte: 1.1.5_svelte@3.47.0
   postmark: 3.0.1
-  svelte-google-analytics~: "link:\e[200~@beyonk/svelte-google-analytics~"
   svelte-seo: 1.4.0_typescript@4.6.3
   typescript: 4.6.3
 

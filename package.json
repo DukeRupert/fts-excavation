@@ -35,7 +35,6 @@
     "@sanity/image-url": "^1.0.1",
     "felte": "^1.1.5",
     "postmark": "^3.0.1",
-    "svelte-google-analytics~": "link:\u001b[200~@beyonk/svelte-google-analytics~",
     "svelte-seo": "^1.4.0",
     "typescript": "^4.6.3"
   }
