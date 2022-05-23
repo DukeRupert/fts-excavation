@@ -29,12 +29,12 @@
 
 <SvelteSeo
   title="FtS Excavation - Home"
-  description="Proudly serving the south Puget Sound region through excellent excavation services."
-  keywords="excavation construction services contractor puget sound puyallup drainage grading"
+  description="Landscaping and site preparation proffesionals serving the Puyallup and Tacoma region."
+  keywords="excavation land clearing foundations leveling dirt removal residential construction utility installation tacoma puyallup"
   openGraph={{
     title: 'FtS Excavation - Home',
     description:
-      'Proudly serving the south Puget Sound region through excellent excavation services.',
+      'Landscaping and site preparation proffesionals serving the Puyallup and Tacoma region.',
     url: $page.url.href,
     type: 'website',
     images: [
