@@ -34,19 +34,19 @@
           </div>
           <div class="mt-6">
             <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
-              Local experts, Better results
+              Puyallup's excavation experts
             </h2>
             <p class="mt-4 text-lg text-gray-500">
-              Our company serves local homeowners and businesses, by offering fair pricing and
-              quality work. Check out some of our recent projects to see how we are making the south
-              Puget Sound region better!
+              Our company serves Puyallup and Tacoma by offering residential and commercial
+              excavaction services including site preparation, leveling, road work, land clearing
+              and utility installation.
             </p>
             <div class="mt-6">
               <a
-                href="/projects"
+                href="/contact-us"
                 class="inline-flex bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-breaker-bay-600 hover:to-spectra-600"
               >
-                View Projects
+                Contact Us
               </a>
             </div>
           </div>
@@ -118,16 +118,16 @@
               Precision + Integrity
             </h2>
             <p class="mt-4 text-lg text-gray-500">
-              We pride ourselves on the excellence of our work. A key part of that success is clear
-              communication about your goals and constraints. Contact us today to fix a difficult
-              problem or turn a dream into reality.
+              We pride ourselves on the excellence of our work. Whether its land clearing or
+              building a retaining wall we ensure every job is completed with precision. Check out
+              some of our past excavaction projects to see what we mean.
             </p>
             <div class="mt-6">
               <a
-                href="/contact-us"
+                href="/projects"
                 class="inline-flex bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-breaker-bay-600 hover:to-spectra-600"
               >
-                Contact Us
+                View Projects
               </a>
             </div>
           </div>
