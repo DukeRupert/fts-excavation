@@ -27,9 +27,9 @@
       </div>
       <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
         <img src="/FtS_Logo.svg" class="w-40 md:w-60 lg:w-80 mx-auto" alt="FtS Excavation logo" />
-        <p class="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl">
-          Proudly serving the South Puget Sound.
-        </p>
+        <h1 class="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl">
+          Landscaping and site preparation experts
+        </h1>
         <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
           <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
             <a
