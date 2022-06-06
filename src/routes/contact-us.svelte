@@ -4,6 +4,7 @@
   //@ts-ignore
   import {page} from '$app/stores'
   import ContactForm from '$lib/forms/ContactForm.svelte'
+  import GMap from '$lib/GMap.svelte'
 </script>
 
 <SvelteSeo
@@ -46,6 +47,9 @@
       class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8"
     >
       <ContactForm />
+    </div>
+    <div class="w-full h-80">
+      <GMap />
     </div>
   </div>
 </div>
