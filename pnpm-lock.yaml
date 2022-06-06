@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@beyonk/async-script-loader': ^2.2.2
   '@beyonk/svelte-google-analytics': ^2.4.0
   '@felte/reporter-svelte': ^1.0.3
   '@portabletext/svelte': ^0.2.0
@@ -35,6 +36,7 @@ dependencies:
   typescript: 4.6.3
 
 devDependencies:
+  '@beyonk/async-script-loader': 2.2.2
   '@beyonk/svelte-google-analytics': 2.4.0
   '@portabletext/svelte': 0.2.0_svelte@3.47.0
   '@sveltejs/adapter-vercel': 1.0.0-next.58
@@ -73,6 +75,10 @@ packages:
       '@babel/helper-validator-identifier': 7.16.7
       chalk: 2.4.2
       js-tokens: 4.0.0
+    dev: true
+
+  /@beyonk/async-script-loader/2.2.2:
+    resolution: {integrity: sha512-K6J9NqZy8w2A2Pyi1pZrwBf+ZmYQNwZF+94s3PDV12rdoDukAZEgxObwqs/xea2rrzlNVmeb6WMY7GBAg67ofg==}
     dev: true
 
   /@beyonk/svelte-google-analytics/2.4.0:
