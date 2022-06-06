@@ -22,6 +22,8 @@
   import GradientFeatures from '$lib/GradientFeatures.svelte'
   import CallToAction from '$lib/CallToAction.svelte'
   import PostsGrid from '$lib/PostsGrid.svelte'
+  import GMap from '../lib/GMap.svelte'
+  import ServiceArea from '../lib/ServiceArea.svelte'
 
   export let posts
   posts = posts.slice(0, 3)
@@ -62,4 +64,5 @@
     <PostsGrid {posts} />
   </div>
 </div>
+<ServiceArea />
 <CallToAction />
