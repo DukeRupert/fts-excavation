@@ -88,7 +88,7 @@
             />
           </svg>
 
-          Call
+          {$tel.pretty}
         </a>
       </div>
     </div>
