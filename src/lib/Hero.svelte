@@ -27,9 +27,8 @@
       </div>
       <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
         <img src="/FtS_Logo.svg" class="w-40 md:w-60 lg:w-80 mx-auto" alt="FtS Excavation logo" />
-        <h1 class="hidden">Landscaping and site preparation experts serving Puyallup and Tacoma</h1>
         <h2 class="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl">
-          Precision + Integrity
+          serving the Puget Sound and parts of King County
         </h2>
         <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
           <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
