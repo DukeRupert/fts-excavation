@@ -48,6 +48,10 @@
         >
       </a>
     </div>
+    <a
+      href="https://www.google.com/maps/place/FtS-Excavation,+LLC/@47.1761259,-122.2630845,10z/data=!4m5!3m4!1s0x0:0xb896498a4891ace9!8m2!3d47.1761259!4d-122.2630845"
+      class="mt-8 block text-center text-base text-gray-400">12714 151st St E Puyallup, WA 98374</a
+    >
     <p class="mt-8 text-center text-base text-gray-400">
       &copy; 2021 FTS Excavation, LLC. All rights reserved.
     </p>
