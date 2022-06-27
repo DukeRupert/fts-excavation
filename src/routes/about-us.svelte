@@ -52,15 +52,20 @@
         work to road work, septic systems, housing developments – you name it!
       </p>
       <p>
-        Beverly is a stay at home mom and educator. She runs the admin side of the business with a
-        team of wonderful people from the community. When she met Frank, their hard-work and
-        integrity became synergy, and things started to take off.
+        If it involves dirt- FTS Excavation is the expert. We hire talented, experienced operators
+        and pride ourselves in excellent workmanship.
       </p>
       <p>
-        Our goal is to build a company that serves local homeowners and businesses, offering fair
-        pricing and quality work. We try to keep the money that is spent by our business within the
-        community and the USA as much as possible. We also love Jesus Christ and won’t hide it. We’d
-        love to pray with you and encourage you anytime.
+        A few of the services we offer are driveway repair, land clearing foundations, leveling,
+        road work, land clearing services, dirt removal, excavation services, lot clearing, dump
+        truck services, dirt removal service, site preparation, excavation and grading, retaining
+        wall services, driveway removal, commercial excavation, utility installation, and
+        underground holding tanks.
+      </p>
+      <p>
+        It's so important to start your project with an expert like FTS Excavation company to
+        prevent issues from arising such as settling and standing water that can affect the
+        soundness of the structure you're afterwards.
       </p>
       <p>Thank you for considering us for your project and passing along our name.</p>
       <p>FtS Excavation,<br /> License # FTSECAL795DB</p>
