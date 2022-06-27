@@ -2,6 +2,9 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Libre Franklin', 'ui-sans-serif', 'system-ui']
+      },
       colors: {
         spectra: {
           50: '#f5f7f7',
