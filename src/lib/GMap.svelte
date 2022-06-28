@@ -1,4 +1,4 @@
-<script>
+<script defer>
   import {onMount} from 'svelte'
   import {Loader} from 'google-maps'
 

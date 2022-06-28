@@ -12,15 +12,6 @@
   let menuOpen = false
 </script>
 
-<!-- <header>
-  <span>{blogTitle}</span>
-  <nav>
-    <ul>
-      <li><a data-selected={pathname === '/'} href="/">home</a></li>
-    </ul>
-  </nav>
-</header> -->
-
 <header>
   <div class="relative bg-white">
     <div
@@ -102,7 +93,7 @@
               <a href="/" on:click={() => (menuOpen = !menuOpen)}>
                 <img
                   class="h-16 w-auto p-1 sm:h-20 sm:p-2 bg-gradient-to-r from-evergreen-500 to-evergreen-500 rounded-md"
-                  src="/FtS_Logo.svg"
+                  src="/logo/FtS_Logo-Cream-01.svg"
                   alt="FtS Excavation logo"
                 />
               </a>
@@ -169,7 +160,7 @@
         <div class="flex justify-center space-x-6 pt-5 pb-6 px-5 border-none">
           <a
             href="https://www.facebook.com/FtS-Excavation-107417208285323"
-            class="text-gray-400 hover:text-gray-500"
+            class="text-actionorange-500 hover:text-actionorange-300"
           >
             <span class="sr-only">Facebook Page</span>
             <svg class="h-10 w-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -183,7 +174,7 @@
 
           <a
             href="https://www.youtube.com/channel/UC_LbjVWjiiFg3h9lB6rcvGQ"
-            class="text-gray-400 hover:text-gray-500"
+            class="text-actionorange-500 hover:text-actionorange-300"
           >
             <span class="sr-only">Youtube Channel</span>
             <svg

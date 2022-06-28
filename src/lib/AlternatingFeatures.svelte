@@ -77,6 +77,7 @@
             class="w-full sm:max-w-md rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
             src="/image/fts_backyard.webp"
             alt="A beautiful green backyard with sunlight shining through the trees"
+            loading="lazy"
           />
         </div>
       </div>
@@ -141,6 +142,7 @@
             class="w-full sm:max-w-md rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
             src="/image/fts_equipment.webp"
             alt="An excavator in the middle of a construction site surrounded by pine trees"
+            loading="lazy"
           />
         </div>
       </div>

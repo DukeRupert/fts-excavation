@@ -17,7 +17,7 @@
           height="1257.6"
           class="h-full w-full object-cover"
         >
-          <source src="video/excavator.mp4" type="video/mp4" />
+          <source src="video/excavator_720p.mp4" type="video/mp4" />
           Your browser does not support the video tag.
           <track kind="captions" />
         </video>

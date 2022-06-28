@@ -62,7 +62,12 @@
       {#each services as service}
         <div>
           <div>
-            <img class="h-36 w-36 rounded-md" src={service.image.url} alt={service.image.alt} />
+            <img
+              class="h-36 w-36 rounded-md"
+              loading="lazy"
+              src={service.image.url}
+              alt={service.image.alt}
+            />
           </div>
           <div class="mt-6">
             <h3 class="text-lg font-medium text-cream-500">{service.title}</h3>
