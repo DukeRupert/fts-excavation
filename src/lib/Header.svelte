@@ -30,7 +30,7 @@
         <a href="/" class="z-20">
           <span class="sr-only">FtS Excavation</span>
           <img
-            class="h-16 w-auto p-1 sm:h-20 sm:p-2 bg-spectra-500 rounded-md"
+            class="h-16 w-auto p-1 sm:h-20 sm:p-2 bg-evergreen-500 rounded-md"
             src="/FtS_Logo.svg"
             alt="FtS Excavation logo"
           />
@@ -72,14 +72,9 @@
       <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
         <a
           href={$tel.href}
-          class="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-breaker-bay-600 hover:to-spectra-800"
+          class="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-actionorange-500 to-actionorange-500 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-black hover:text-cream-500 hover:from-actionorange-300 hover:to-actionorange-300"
         >
-          <svg
-            class="h-6 w-6 mr-2 text-white"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
+          <svg class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -106,7 +101,7 @@
             <div>
               <a href="/" on:click={() => (menuOpen = !menuOpen)}>
                 <img
-                  class="h-16 w-auto p-1 sm:h-20 sm:p-2 bg-gradient-to-r from-breaker-bay-500 to-spectra-500 rounded-md"
+                  class="h-16 w-auto p-1 sm:h-20 sm:p-2 bg-gradient-to-r from-evergreen-500 to-evergreen-500 rounded-md"
                   src="/FtS_Logo.svg"
                   alt="FtS Excavation logo"
                 />
@@ -115,7 +110,7 @@
             <div class="-mr-2">
               <button
                 type="button"
-                class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-breaker-bay-500"
+                class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-evergreen-500"
                 on:click={() => (menuOpen = !menuOpen)}
               >
                 <span class="sr-only">Close menu</span>
@@ -143,11 +138,11 @@
               {#each $links as link}
                 <a
                   href={link.path}
-                  class="-m-3 p-3 flex items-center rounded-lg hover:bg-breaker-bay-100"
+                  class="-m-3 p-3 flex items-center rounded-lg hover:bg-evergreen-100"
                   on:click={() => (menuOpen = !menuOpen)}
                 >
                   <div
-                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-breaker-bay-500 to-spectra-500 text-white"
+                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-r from-evergreen-500 to-evergreen-500 text-cream-500"
                   >
                     <svg
                       class="h-6 w-6"
@@ -210,11 +205,11 @@
           <div class="mt-6">
             <a
               href="/contact-us"
-              class="w-full flex items-center justify-center bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-breaker-bay-600 hover:to-spectra-600"
+              class="w-full flex items-center justify-center bg-gradient-to-r from-evergreen-500 to-evergreen-500 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-cream-500 hover:from-evergreen-600 hover:to-evergreen-600"
               on:click={() => (menuOpen = !menuOpen)}
             >
               <svg
-                class="h-6 w-6 mr-2 text-white"
+                class="h-6 w-6 mr-2 text-cream-500"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -234,10 +229,10 @@
             <div class="mt-6">
               <a
                 href={$tel.href}
-                class="w-full flex items-center justify-center text-center text-base font-medium text-gray-500 px-4 py-2 hover:bg-breaker-bay-100 rounded-md"
+                class="w-full flex items-center justify-center text-center bg-actionorange-500 text-base font-medium text-black px-4 py-2 rounded-md"
               >
                 <svg
-                  class="h-6 w-6 mr-2 text-breaker-bay-500"
+                  class="h-6 w-6 mr-2 text-black"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

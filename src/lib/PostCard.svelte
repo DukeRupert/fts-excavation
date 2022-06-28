@@ -28,7 +28,7 @@
       <a
         rel="prefetch"
         href="/projects/{post.slug.current}"
-        class="inline-flex max-w-xs mr-auto bg-origin-border mt-6 px-4 py-2 border border-breaker-bay-500 text-base font-medium rounded-md shadow-sm text-spectra-500 transform hover:translate-x-2 transition ease-out hover:text-breaker-bay-500"
+        class="inline-flex max-w-xs mr-auto bg-origin-border mt-6 px-4 py-2 border border-evergreen-500 text-base font-medium rounded-md shadow-sm text-evergreen-500 transform hover:translate-x-2 transition ease-out hover:text-evergreen-500"
         >Read more <svg
           class="h-6 w-6 ml-2 currentColor"
           width="24"

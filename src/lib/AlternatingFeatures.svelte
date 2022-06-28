@@ -9,11 +9,11 @@
         <div>
           <div>
             <span
-              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-breaker-bay-500 to-spectra-500"
+              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-evergreen-500 to-evergreen-500"
             >
               <!-- Icon: Ruler/Pencil -->
               <svg
-                class="h-6 w-6 text-white"
+                class="h-6 w-6 text-cream-500"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -44,7 +44,7 @@
             <div class="mt-6">
               <a
                 href="/contact-us"
-                class="inline-flex bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-breaker-bay-600 hover:to-spectra-600"
+                class="inline-flex bg-gradient-to-r from-evergreen-500 to-evergreen-500 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-evergreen-200 hover:to-evergreen-400"
               >
                 Contact Us
               </a>
@@ -92,11 +92,11 @@
         <div>
           <div>
             <span
-              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-breaker-bay-500 to-spectra-500"
+              class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-evergreen-500 to-evergreen-500"
             >
               <!-- Heroicon name: outline/sparkles -->
               <svg
-                class="h-6 w-6 text-white"
+                class="h-6 w-6 text-cream-500"
                 viewBox="0 0 24 24"
                 width="24"
                 height="24"
@@ -125,7 +125,7 @@
             <div class="mt-6">
               <a
                 href="/projects"
-                class="inline-flex bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-breaker-bay-600 hover:to-spectra-600"
+                class="inline-flex bg-gradient-to-r from-evergreen-500 to-evergreen-500 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-evergreen-200 hover:to-evergreen-400"
               >
                 View Projects
               </a>

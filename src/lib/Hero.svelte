@@ -27,22 +27,45 @@
       </div>
       <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
         <img src="/FtS_Logo.svg" class="w-40 md:w-60 lg:w-80 mx-auto" alt="FtS Excavation logo" />
-        <h2 class="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl">
-          serving the Puget Sound and parts of King County
+        <h2 class="mt-6 max-w-lg mx-auto text-center text-xl lg:text-2xl text-white sm:max-w-3xl">
+          Serving the Puget Sound and parts of King County
         </h2>
         <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
           <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
             <a
               href="/contact-us"
-              class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-spectra-500 bg-white hover:bg-breaker-bay-100 sm:px-8"
+              class="flex items-center justify-center px-4 py-3 border border-transparent text-lg font-bold rounded-md shadow-sm text-cream-500 bg-evergreen-500 hover:bg-evergreen-300 sm:px-8"
             >
-              Contact Us
+              <svg
+                class="h-6 w- mr-2"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" /> <line x1="10" y1="14" x2="21" y2="3" />
+                <path
+                  d="M21 3L14.5 21a.55 .55 0 0 1 -1 0L10 14L3 10.5a.55 .55 0 0 1 0 -1L21 3"
+                /></svg
+              >
+              Contact
             </a>
             <a
               href={$tel.href}
-              class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-breaker-bay-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
-            >
-              Call Us
+              class="flex items-center justify-center px-4 py-3 border border-transparent text-lg font-bold rounded-md shadow-sm text-black hover:text-cream-500 bg-actionorange-500 hover:bg-actionorange-300 sm:px-8"
+              ><svg class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                />
+              </svg>
+              Call
             </a>
           </div>
         </div>

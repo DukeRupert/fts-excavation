@@ -10,17 +10,17 @@
     <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
       <span class="block">Ready to get started?</span>
       <span
-        class="-mb-1 pb-1 block bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-clip-text text-transparent"
+        class="-mb-1 pb-1 block bg-gradient-to-r from-evergreen-500 to-evergreen-500 bg-clip-text text-transparent"
         >Let's talk!</span
       >
     </h2>
     <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
       <a
         href="/contact-us"
-        class="flex items-center justify-center bg-gradient-to-r from-breaker-bay-500 to-spectra-500 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-breaker-bay-600 hover:to-spectra-600"
+        class="flex items-center justify-center bg-gradient-to-r from-evergreen-500 to-evergreen-500 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-cream-500 hover:from-evergreen-200 hover:to-evergreen-400"
       >
         <svg
-          class="h-6 w- mr-2 text-white"
+          class="h-6 w- mr-2"
           width="24"
           height="24"
           viewBox="0 0 24 24"
@@ -37,14 +37,9 @@
       </a>
       <a
         href={$tel.href}
-        class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-spectra-500 bg-breaker-bay-200 hover:bg-breaker-bay-300"
+        class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black hover:text-cream-500 bg-actionorange-500 hover:bg-actionorange-300"
       >
-        <svg
-          class="h-6 w-6 mr-2 text-spectra-500"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
+        <svg class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path
             stroke-linecap="round"
             stroke-linejoin="round"

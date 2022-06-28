@@ -13,7 +13,7 @@
   // If we split dimensions by "x", we get the width (1350) and height (900)
   $: [width, height] = dimensions.split('x').map(Number)
 
-  $: aspectRatio = width / height
+  $: aevergreentio = width / height
 
   // Once loaded, the image will transition to full opacity
   let loaded = false
@@ -25,7 +25,7 @@
     loading="lazy"
     src={urlFor(image).width(maxWidth).fit('fillmax')}
     alt={alt || image.alt || ''}
-    style="aspect-ratio: {aspectRatio}; opacity: {loaded ? 1 : 0}; transition: .2s opacity;"
+    style="aspect-ratio: {aevergreentio}; opacity: {loaded ? 1 : 0}; transition: .2s opacity;"
     on:load={() => (loaded = true)}
   />
 {/if}

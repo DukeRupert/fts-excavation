@@ -47,12 +47,12 @@
   ]
 </script>
 
-<div class="bg-gradient-to-r from-spectra-600 to-breaker-bay-600">
+<div class="bg-gradient-to-r from-evergreen-400 to-evergreen-700">
   <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-    <h2 class="text-3xl font-extrabold text-white tracking-tight">
+    <h2 class="text-3xl font-extrabold text-cream-500 tracking-tight">
       Commercial and domestic services
     </h2>
-    <p class="mt-4 max-w-3xl text-lg text-purple-200">
+    <p class="mt-4 max-w-3xl text-lg text-cream-200">
       If it involves dirt then we have probably done it before. Here are a few of the services we
       offer.
     </p>
@@ -65,8 +65,8 @@
             <img class="h-36 w-36 rounded-md" src={service.image.url} alt={service.image.alt} />
           </div>
           <div class="mt-6">
-            <h3 class="text-lg font-medium text-white">{service.title}</h3>
-            <p class="mt-2 text-base text-purple-200">
+            <h3 class="text-lg font-medium text-cream-500">{service.title}</h3>
+            <p class="mt-2 text-base text-cream-200">
               {service.body}
             </p>
           </div>

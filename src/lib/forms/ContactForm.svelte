@@ -94,7 +94,7 @@
               id="first"
               autocomplete="given-name"
               placeholder={crew[crewChoice].first}
-              class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              class="shadow-sm focus:ring-evergreen-500 focus:border-evergreen-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
             <ValidationMessage for="first" let:messages={message}>
               <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
@@ -111,7 +111,7 @@
               id="last"
               autocomplete="family-name"
               placeholder={crew[crewChoice].last}
-              class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              class="shadow-sm focus:ring-evergreen-500 focus:border-evergreen-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
             <ValidationMessage for="last" let:messages={message}>
               <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
@@ -128,7 +128,7 @@
               type="email"
               autocomplete="email"
               placeholder={crew[crewChoice].email}
-              class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              class="shadow-sm focus:ring-evergreen-500 focus:border-evergreen-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
             <ValidationMessage for="email" let:messages={message}>
               <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
@@ -145,7 +145,7 @@
               id="phone"
               autocomplete="tel"
               placeholder="253-123-4567"
-              class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              class="shadow-sm focus:ring-evergreen-500 focus:border-evergreen-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
             <ValidationMessage for="phone" let:messages={message}>
               <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
@@ -161,7 +161,7 @@
               name="password"
               id="password"
               autocomplete="password"
-              class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              class="shadow-sm focus:ring-evergreen-500 focus:border-evergreen-500 block w-full sm:text-sm border-gray-300 rounded-md"
             />
           </div>
         </div>
@@ -182,7 +182,7 @@
                 name="location"
                 id="location"
                 placeholder="Puyallup"
-                class="shadow-sm focus:ring-breaker-bay-500 focus:border-breaker-bay-500 block w-full sm:text-sm border-gray-300 rounded-md"
+                class="shadow-sm focus:ring-evergreen-500 focus:border-evergreen-500 block w-full sm:text-sm border-gray-300 rounded-md"
               />
               <ValidationMessage for="location" let:messages={message}>
                 <span class="text-red-600 text-sm font-normal ml-4"> {message || ''}</span>
@@ -195,7 +195,7 @@
             <select
               id="service"
               name="service"
-              class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-breaker-bay-500 focus:border-breaker-bay-500 sm:text-sm rounded-md"
+              class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-evergreen-500 focus:border-evergreen-500 sm:text-sm rounded-md"
             >
               <option selected>Site Preparation</option>
               <option>Drainage</option>
@@ -213,7 +213,20 @@
     <div class="flex justify-end">
       <button
         type="submit"
-        class="ml-3 inline-flex justify-center py-2 px-8 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-breaker-bay-500 to-spectra-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-breaker-bay-500 hover:from-breaker-bay-500 hover:to-spectra-600"
+        class="ml-3 inline-flex justify-center py-2 px-8 border border-transparent shadow-sm text-base font-medium rounded-md text-black hover:text-cream-500 bg-gradient-to-r from-actionorange-500 to-actionorange-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-actionorange-500 hover:from-actionorange-500 hover:to-actionorange-300"
+        ><svg
+          class="h-6 w- mr-2"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" /> <line x1="10" y1="14" x2="21" y2="3" />
+          <path d="M21 3L14.5 21a.55 .55 0 0 1 -1 0L10 14L3 10.5a.55 .55 0 0 1 0 -1L21 3" /></svg
         >Send</button
       >
     </div>
