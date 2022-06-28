@@ -35,8 +35,10 @@
   keywords="excavation land clearing foundations leveling dirt removal residential construction utility installation tacoma puyallup"
   openGraph={{
     title: 'FtS Excavation - Home',
-    description:
-      'Landscaping and site preparation proffesionals serving the Puyallup and Tacoma region.',
+    description: `FtS-Excavation serves residential and
+commercial clients with all dirt needs from
+pre-building land development to drainage
+and soil solutions.`,
     url: $page.url.href,
     type: 'website',
     images: [

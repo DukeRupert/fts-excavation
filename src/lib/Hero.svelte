@@ -26,7 +26,11 @@
         /> -->
       </div>
       <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-        <img src="/FtS_Logo.svg" class="w-40 md:w-60 lg:w-80 mx-auto" alt="FtS Excavation logo" />
+        <img
+          src="/logo/FtS_Logo-whiteorange-01-01.svg"
+          class="w-60 lg:w-80 mx-auto"
+          alt="FtS Excavation logo"
+        />
         <h2 class="mt-6 max-w-lg mx-auto text-center text-xl lg:text-2xl text-white sm:max-w-3xl">
           Serving the Puget Sound and parts of King County
         </h2>

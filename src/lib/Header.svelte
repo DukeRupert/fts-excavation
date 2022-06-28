@@ -31,7 +31,7 @@
           <span class="sr-only">FtS Excavation</span>
           <img
             class="h-16 w-auto p-1 sm:h-20 sm:p-2 bg-evergreen-500 rounded-md"
-            src="/FtS_Logo.svg"
+            src="/logo/FtS_Logo-Cream-01.svg"
             alt="FtS Excavation logo"
           />
         </a>
